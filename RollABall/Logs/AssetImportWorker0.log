@@ -1,0 +1,585 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 14188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/projetos/Jake-Perfect-Sandwich/RollABall
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54486
+Successfully changed project path to: D:/projetos/Jake-Perfect-Sandwich/RollABall
+D:/projetos/Jake-Perfect-Sandwich/RollABall
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22184] Host "[IP] 26.238.98.74 [Port] 0 [Flags] 2 [Guid] 2483345598 [EditorId] 2483345598 [Version] 1048832 [Id] WindowsEditor(7,Gamerzito) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22184] Host "[IP] 26.238.98.74 [Port] 0 [Flags] 2 [Guid] 2483345598 [EditorId] 2483345598 [Version] 1048832 [Id] WindowsEditor(7,Gamerzito) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/projetos/Jake-Perfect-Sandwich/RollABall/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3978 MB
+    Driver:   31.0.15.4601
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003562 seconds.
+- Loaded All Assemblies, in  0.353 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 287 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.609 seconds
+Domain Reload Profiling: 962ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (112ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (126ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (609ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (552ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (397ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\projetos\Jake-Perfect-Sandwich\RollABall\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\projetos\Jake-Perfect-Sandwich\RollABall\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.525 seconds
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.529 seconds
+Domain Reload Profiling: 1054ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (315ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (118ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (529ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (392ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (57.0 KB). Loaded Objects now: 3945.
+Memory consumption went from 131.1 MB to 131.1 MB.
+Total: 3.781100 ms (FindLiveObjects: 0.494700 ms CreateObjectMapping: 0.280600 ms MarkObjects: 2.864300 ms  DeleteObjects: 0.140300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\projetos\Jake-Perfect-Sandwich\RollABall\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\projetos\Jake-Perfect-Sandwich\RollABall\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.354 seconds
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.834 seconds
+Domain Reload Profiling: 1188ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (834ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (444ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3458 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3948.
+Memory consumption went from 126.3 MB to 126.2 MB.
+Total: 3.314400 ms (FindLiveObjects: 0.255600 ms CreateObjectMapping: 0.207200 ms MarkObjects: 2.802600 ms  DeleteObjects: 0.048200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7562.286943 seconds.
+  path: Assets/Materials/seamless-textured-grass-natural-grass-pattern
+  artifactKey: Guid(52c5f42acedd87b48878bc0ea784f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/seamless-textured-grass-natural-grass-pattern using Guid(52c5f42acedd87b48878bc0ea784f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba07db32fa172624361855aeacd27912') in 0.003607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.803136 seconds.
+  path: Assets/Materials/seamless-textured-grass-natural-grass-pattern/Cartoon_green_texture_grass.jpg
+  artifactKey: Guid(7694dfc15e9c3254c8f4ced4165dca3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/seamless-textured-grass-natural-grass-pattern/Cartoon_green_texture_grass.jpg using Guid(7694dfc15e9c3254c8f4ced4165dca3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8922385d12b41c6e492a657b2c3c9cf4') in 0.051138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.173733 seconds.
+  path: Assets/Materials/seamless-textured-grass-natural-grass-pattern/Cartoon_green_texture_grass.eps
+  artifactKey: Guid(2498af4d5b9885d43a76f5a4eeda82b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/seamless-textured-grass-natural-grass-pattern/Cartoon_green_texture_grass.eps using Guid(2498af4d5b9885d43a76f5a4eeda82b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655d3dfa572c6998cf134908bb40b461') in 0.000940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 673.211260 seconds.
+  path: Assets/trees/uploads_files_328419_LowPolyTreePack.unitypackage
+  artifactKey: Guid(4fef0a72a5047dd4e9c8c8302b3e0bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trees/uploads_files_328419_LowPolyTreePack.unitypackage using Guid(4fef0a72a5047dd4e9c8c8302b3e0bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f94b56de0110cc1c29f0e80db6e9d0') in 0.000874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.390669 seconds.
+  path: Assets/trees/JSG-Model-Pack-A v1.0.rar
+  artifactKey: Guid(b712ceca751598944ba60bfdfaa8f8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trees/JSG-Model-Pack-A v1.0.rar using Guid(b712ceca751598944ba60bfdfaa8f8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef542bfefa8c5163237cb5058c332168') in 0.000926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.689801 seconds.
+  path: Assets/trees/Level Low Poly Field
+  artifactKey: Guid(cdce12e336fc9fd45886534441f95800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trees/Level Low Poly Field using Guid(cdce12e336fc9fd45886534441f95800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932fe17001afb459951d032cd6f60246') in 0.000472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.948103 seconds.
+  path: Assets/trees/Level Low Poly Field/Level Low Poly Field.fbx
+  artifactKey: Guid(d8727e001a04c0443bce80d05697f288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trees/Level Low Poly Field/Level Low Poly Field.fbx using Guid(d8727e001a04c0443bce80d05697f288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c852e3595d8e4250bb3b16f8ef7072') in 0.360526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 153
+========================================================================
+Received Import Request.
+  Time since last request: 33.278074 seconds.
+  path: Assets/trees/JSG-Model-Pack-A v1.0
+  artifactKey: Guid(fc0c67068ccfb4a44a04384182f07c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trees/JSG-Model-Pack-A v1.0 using Guid(fc0c67068ccfb4a44a04384182f07c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1000fe1e4b9d25f3eec62e1e796436f3') in 0.000601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.680739 seconds.
+  path: Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0
+  artifactKey: Guid(723e57532d3eb7b4185c7372202159f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0 using Guid(723e57532d3eb7b4185c7372202159f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db6c879965c9dc4b5098782df5835db') in 0.000468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.328494 seconds.
+  path: Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/pic-1.jpg
+  artifactKey: Guid(c7bc741bd70217f4595f663f5ce6e993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/pic-1.jpg using Guid(c7bc741bd70217f4595f663f5ce6e993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa5957a0176361abcb3a3e89ca2e0a6') in 0.014142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.766648 seconds.
+  path: Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/pic-2.jpg
+  artifactKey: Guid(84d5fafafca9d014b90ff9cd3590f80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/pic-2.jpg using Guid(84d5fafafca9d014b90ff9cd3590f80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbccfefa37688215257e823db89e0a0') in 0.013732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.451182 seconds.
+  path: Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/model and texture
+  artifactKey: Guid(feb75a49f1a2dc34481ac21ebdfce4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/model and texture using Guid(feb75a49f1a2dc34481ac21ebdfce4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e602cc0a10ef233df31a51eda7deecd') in 0.000482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.361293 seconds.
+  path: Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/unity package
+  artifactKey: Guid(c8a9c98f212ea7d4fb80d7f80f3d62a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/unity package using Guid(c8a9c98f212ea7d4fb80d7f80f3d62a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7261bdfea756550a9de779a533eee1') in 0.000460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.668924 seconds.
+  path: Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/blender project
+  artifactKey: Guid(b60883c467267b04fa31bb8012302119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/blender project using Guid(b60883c467267b04fa31bb8012302119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b473c6b25f4f21fc6c4d60346d59568') in 0.000474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.749518 seconds.
+  path: Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/blender project/untitled.blend
+  artifactKey: Guid(73eabde06d2ac9e43bc476ba85df6195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/blender project/untitled.blend using Guid(73eabde06d2ac9e43bc476ba85df6195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca04d7d186d69bd5f93c581bdcd56ec') in 0.565893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 326
+========================================================================
+Received Import Request.
+  Time since last request: 11.081565 seconds.
+  path: Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/model and texture/TexturePack_Flat_1.psd
+  artifactKey: Guid(c8b328cd962e92748a9f9b50e0ebbad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/model and texture/TexturePack_Flat_1.psd using Guid(c8b328cd962e92748a9f9b50e0ebbad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5520089adea290d49751fe6fd22daf8') in 0.013473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.910823 seconds.
+  path: Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/model and texture/TexturePack_Flat_2.psd
+  artifactKey: Guid(1662521395fc438498aaa3f4b330b544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/model and texture/TexturePack_Flat_2.psd using Guid(1662521395fc438498aaa3f4b330b544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d01c58ce13983d41b28520f7114abe') in 0.013207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.884444 seconds.
+  path: Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/model and texture/model-pack-1.fbx
+  artifactKey: Guid(586747830ed23d64388a7c9dce412e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/model and texture/model-pack-1.fbx using Guid(586747830ed23d64388a7c9dce412e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd4b2e0a6de1b07a002fdd5e344c87a') in 0.514418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 326
+========================================================================
+Received Import Request.
+  Time since last request: 31.474205 seconds.
+  path: Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/unity package/JSG-Model-Pack-A.unitypackage
+  artifactKey: Guid(3a072c27927e7964cb245a1b5493280c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trees/JSG-Model-Pack-A v1.0/JSG-Model-Pack-A v1.0/unity package/JSG-Model-Pack-A.unitypackage using Guid(3a072c27927e7964cb245a1b5493280c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1d2a46f8656f690bde54935919ef30') in 0.001138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\projetos\Jake-Perfect-Sandwich\RollABall\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\projetos\Jake-Perfect-Sandwich\RollABall\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.361 seconds
+Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.322 seconds
+Domain Reload Profiling: 1683ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (221ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1322ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3996.
+Memory consumption went from 126.7 MB to 126.7 MB.
+Total: 4.664100 ms (FindLiveObjects: 0.552100 ms CreateObjectMapping: 0.152100 ms MarkObjects: 3.852900 ms  DeleteObjects: 0.105200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\projetos\Jake-Perfect-Sandwich\RollABall\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\projetos\Jake-Perfect-Sandwich\RollABall\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.344 seconds
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.792 seconds
+Domain Reload Profiling: 1136ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (208ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (793ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (438ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (336ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3458 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3999.
+Memory consumption went from 127.0 MB to 127.0 MB.
+Total: 3.772700 ms (FindLiveObjects: 0.336000 ms CreateObjectMapping: 0.149100 ms MarkObjects: 3.229500 ms  DeleteObjects: 0.057200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 250.176024 seconds.
+  path: Assets/JSG-Model-Pack-A/Materials
+  artifactKey: Guid(0956f645f5e9fe7428df3c847d223f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JSG-Model-Pack-A/Materials using Guid(0956f645f5e9fe7428df3c847d223f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c327dd7321ebd2d3978cb68b32226f17') in 0.001962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.966776 seconds.
+  path: Assets/JSG-Model-Pack-A/Models/model-pack-1.fbx
+  artifactKey: Guid(705b18ad3ab61354d9c05efe92ecb74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JSG-Model-Pack-A/Models/model-pack-1.fbx using Guid(705b18ad3ab61354d9c05efe92ecb74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6713ab80666d8bba9ffc9a2cd8d9e45') in 0.557617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 326
+========================================================================
+Received Import Request.
+  Time since last request: 5.661389 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Models
+  artifactKey: Guid(988f3dbd4cdadd84a8e393bdf70d8bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Models using Guid(988f3dbd4cdadd84a8e393bdf70d8bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc48d132257b8bfebd687b9e4cbd9ed') in 0.000783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.801500 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Models/Tree Type0 01.dae
+  artifactKey: Guid(d2821924b86cff5439f12b0289585dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Models/Tree Type0 01.dae using Guid(d2821924b86cff5439f12b0289585dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169be4443cc295954fb83540a4a36b28') in 0.023798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.540056 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Textures
+  artifactKey: Guid(13e5a42f2899f0849b9dc641367ed690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Textures using Guid(13e5a42f2899f0849b9dc641367ed690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb67ba8140351de635d8e31c3ecd55a6') in 0.000542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

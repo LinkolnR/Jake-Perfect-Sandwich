@@ -14,12 +14,14 @@ public class PlayerController : MonoBehaviour
     public float speed = 0; 
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
+    public Transform childTransform;
 
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent <Rigidbody>(); 
+        childTransform = transform.GetChild(0);
         count = 0; 
         SetCountText();
         winTextObject.SetActive(false);
@@ -27,9 +29,14 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate() 
    {
-        Vector3 movement = new Vector3 (movementX, 0.0f, movementY);
-        rb.AddForce(movement * speed); 
-   }
+        Vector3 movement = new Vector3(movementX, 0.0f, movementY);
+        if (movement != Vector3.zero)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(movement);
+            childTransform.rotation = Quaternion.RotateTowards(childTransform.rotation, targetRotation, Time.deltaTime * 500f);
+        }
+        transform.Translate(movement * speed * Time.deltaTime, Space.World);
+    }   
 
     // Update is called once per frame
     void Update()
@@ -41,7 +48,9 @@ public class PlayerController : MonoBehaviour
    {
         Vector2 movementVector = movementValue.Get<Vector2>(); 
         movementX = movementVector.x; 
-        movementY = movementVector.y; 
+        Debug.Log(movementX);
+        movementY = movementVector.y;
+        Debug.Log(movementY); 
    }
 
    void SetCountText() 
